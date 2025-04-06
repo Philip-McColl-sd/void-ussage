@@ -1,7 +1,36 @@
 # Daily Manouvers
 
-## Create Permanent Alias
-### Open .bashrc (The .bashrc file is a script file that’s executed when a user logs in. The file itself contains a series of configurations for the terminal session.) 
+## Basic navigation commands
+
+### Super User
+#### Activate Super User
+$ sudo su
+#### Exit Super User 
+$ exit
+
+### Folder NAvigation
+#### Go to directory
+$ cd [directory name]
+#### Go one folder Up
+$ cd ..
+
+
+## Files/Folders MAnipulation
+### Copy Folder
+$ cp [option]
+
+
+
+### how to get in to root Directory
+
+### Create Permanent Alias
+#### Open .bashrc (The .bashrc file is a script file that’s executed when a user logs in. The file itself contains a series of configurations for the terminal session.) 
 $ [text editor] ~/.bashrc
-### Modify the file so it would include the new alias adding:
+#### Modify the file so it would include the new alias adding:
 alias [command alias]='[command to be aliased]'
+
+
+
+#### Copy content of one directory to another
+
+#### Create Folder
